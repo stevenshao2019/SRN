@@ -1,0 +1,11 @@
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/user-config.json
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/input.1
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/input.9  
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/x.sh  
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/c.sh
+wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019/SRN/master/ssr.sh
+chmod +x *.sh
+./ssr.sh < input.1
+./ssr.sh < input.9
+./c.sh
+
