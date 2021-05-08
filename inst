@@ -8,5 +8,5 @@ wget -N --no-check-certificate  https://raw.githubusercontent.com/stevenshao2019
 chmod +x *.sh
 ./ssr.sh < input.1
 ./ssr.sh < input.9
-./am.sh
+./am.sh 23000
 
